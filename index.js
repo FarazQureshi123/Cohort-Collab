@@ -19,3 +19,7 @@ function divide(a,b){
 function isodd(num){
     return num % 2 == 1;
 }
+
+function findEven(n){
+    return n % 2 === 0;
+}
