@@ -1,2 +1,14 @@
-git init
-git checkout commitId
+git init - start version control
+git add . - staged
+git commit -m "first commit" => checkpoint create kr rha hai 
+git push 
+git pull
+git branch -M main
+git remote add origin https://github.com
+git push -u origin main
+git config pull.rebase false #merge
+git pull
+git commit -m merge 
+git push
+git config pull.rebase true #rebase
+git config pull.ff only #fast-forward only 
