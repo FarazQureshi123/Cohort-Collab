@@ -15,3 +15,7 @@ function multiply(a,b){
 function divide(a,b){
    return a/b;
 }
+
+function isodd(num){
+    return num % 2 == 1;
+}
